@@ -1,3 +1,8 @@
+const toggle = {
+  OFF: 0,
+  WARNING: 1,
+  ON: 2,
+};
 module.exports = {
   env: {
     browser: true,
@@ -16,5 +21,6 @@ module.exports = {
     '@typescript-eslint',
   ],
   rules: {
+    'linebreak-style': toggle.OFF,
   },
 };
