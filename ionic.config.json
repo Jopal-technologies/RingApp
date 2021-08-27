@@ -1,7 +1,0 @@
-{
-  "name": "RingApp",
-  "integrations": {
-    "capacitor": {}
-  },
-  "type": "angular"
-}
