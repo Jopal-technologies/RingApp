@@ -1,34 +1,20 @@
-# Specifies intentionally untracked files to ignore when using Git
-# http://git-scm.com/docs/gitignore
-
-*~
-*.sw[mnpcod]
-.tmp
-*.tmp
-*.tmp.*
-*.sublime-project
-*.sublime-workspace
+# OSX
+#
+.idea
 .DS_Store
-Thumbs.db
-UserInterfaceState.xcuserstate
-$RECYCLE.BIN/
-
-*.log
-log.txt
+npm-debug.log
 npm-debug.log*
+yarn-error.log
+lerna-debug.log
+node_modules
+.vscode/*
+package-lock.json
 
-/.idea
-/.ionic
-/.sass-cache
-/.sourcemaps
-/.versions
-/.vscode
-/coverage
-/dist
-/node_modules
-/platforms
-/plugins
-/www
+# TS build
+/build
+coverage
 
-/android
-/ios
+# This is at root because we don't want to ignore it in
+# newly spun-up apps, but we do want to ignore it in
+# Ignite's source repo.
+boilerplate/yarn.lock
